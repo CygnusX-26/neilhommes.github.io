@@ -1,0 +1,153 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'share tech mono', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#main-text a{
+    text-decoration: none;
+    color: deepskyblue;
+    
+}
+
+#title-text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#title-text a{
+    text-decoration: none;
+    color: #64fca3;
+}
+#title-text a:hover{
+    background-color: aqua;
+    color: #000;
+
+}
+
+#main-text a:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* link */
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+li a.link{
+    color: #401fe2;
+}
+li a.link:hover{
+    background-color: #5d44de;
+    color: #000;
+}
+
+li a.travel{
+    color: #e6ed7e;
+}
+
+li a.travel:hover{
+    background-color: #e6ed7e;
+    color: #000;
+}
+
+li a.ctf{
+    color: #6bd3fc;
+}
+
+li a.ctf:hover{
+    background-color: #6bd3fc;
+    color: #000;
+}
+
+li a.reads{
+    color: rgb(201, 88, 107);
+}
+
+li a.reads:hover{
+    background-color: rgb(201, 88, 107);
+    color: #000;
+}
+
+/* nav-bar */
+.home-nav a:hover {
+    background-color:white;
+    color: black;
+}
+
+.current-select{
+    color: red;
+    display: inline;
+}
+
+.home-nav{
+    float: left;
+    height: 100%;
+    width: 20%;
+    padding-left: 0.3rem;
+    padding-top: 1rem;
+    position: fixed;
+}
+
+.welcome-text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-scrollable {
+    margin-left: 20%;
+    padding: 1rem;
+    height: 100%;
+}
+
+.subtext-club {
+    font-size: 0.9rem;
+    padding-left: 5%;
+}
+
+.style-purple {
+    color: #401fe2;
+    display: inline;
+}
+
+.style-red{
+    color: #d81414;
+    display: inline;
+}
+
+.style-yellow{
+    color: #e6ed7e;
+    display: inline;
+}
+
+.style-gold {
+    color: #dbb50d;
+    display: inline;
+}
+
+@font-face {
+    font-family: "Share Tech Mono";
+    src: url("/Share_Tech_Mono/ShareTechMono-Regular.ttf");
+}

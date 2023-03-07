@@ -1,0 +1,30 @@
+? ---- Simple Calculator Program in script.lols ----
+
+item $x teamfight:int 
+item $y teamfight:int
+item $z teamfight:str
+
+facecheck $z == +
+item $output $x + $y:int
+openchat $x $z $y = $output
+endcheck
+
+facecheck $z == -
+item $output $x - $y:int
+openchat $x $z $y = $output
+endcheck
+
+facecheck $z == *
+item $output $x * $y:int
+openchat $x $z $y = $output
+endcheck
+
+facecheck $z == /
+item $output $x / $y:int
+openchat $x $z $y = $output
+endcheck
+
+facecheck $z == %
+item $output $x % $y:int
+openchat $x $z $y = $output
+endcheck

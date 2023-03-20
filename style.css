@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "Terminus";
+    src: url("terminus-ttf-4.49.2/TerminusTTF-4.49.2.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     background-color: #000;
     color: #fff;
-    font-family: 'share tech mono', monospace;
+    font-family: "Terminus";
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -145,9 +151,4 @@ li a.reads:hover{
 .style-gold {
     color: #dbb50d;
     display: inline;
-}
-
-@font-face {
-    font-family: "Share Tech Mono";
-    src: url("/Share_Tech_Mono/ShareTechMono-Regular.ttf");
 }

